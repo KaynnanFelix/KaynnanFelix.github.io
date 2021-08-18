@@ -43,6 +43,25 @@ span {
     border-radius: 3px;
 }
 
+a {
+    text-decoration: none;
+    color: crimson;
+    font-size: 18px;
+}
+
+i:hover {
+    color: rgb(153, 5, 35);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
 
 .container {
     display: flex;
@@ -66,4 +85,68 @@ span {
     background-color: rgba(240, 240, 240, 1);
     border-radius: 5px;
     box-shadow: 1px 2px 4px 2px rgba(200, 200, 200, 1);
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 0px solid white;
+    text-align: center;
+    background-color: rgba(240, 240, 240, 1);
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px 2px rgba(200, 200, 200, 1);
+}
+
+.card-background {
+    background-color: crimson;
+    width: 110%;
+    height: 80px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-img {
+    margin-top: -60px;
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid crimson;
+    border-radius: 50%;
+    box-shadow: 1px 1px 8px  crimson;  
+}
+
+.card-name {
+    padding: 0px;
+    margin: 0px;
+}
+
+#id {
+   color: rgb(162, 172, 182);
+   margin: 0px;
+}
+
+#curriculum-vitae{
+    padding: 10px;
+    border: 1px solid crimson;
+    border-radius: 5px;
+}
+
+#curriculum-vitae:hover{
+    background-color: crimson;
+    color: white;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: st;
+}
+
+.child {
+
 }
