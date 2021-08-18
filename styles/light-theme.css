@@ -1,69 +1,43 @@
-body {
-    font-family: 'STIX Two Text', serif;
-}
-
-h1 {
-    font-size:xx-large;
-    color: crimson;
-}
-
-h2 {
-    font-size:x-large;
-    color: crimson;
-}
-
-h3 {
-    font-size:large;
-    color: crimson;
-}
-
-h4 {
-    font-size:medium;
-    color: crimson;
-}
-
-h5 {
-
-}
-
-h6 {
-
-}
-
-p {
-
-}
-
-span {
-    font-size:smaller;
-    font-weight: bold;
-    color: white;
-    background-color: crimson;
-    padding: 2px;
-    border-radius: 3px;
-}
-
-a {
-    text-decoration: none;
-    color: crimson;
-    font-size: 18px;
-}
-
-i:hover {
-    color: rgb(153, 5, 35);
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
-}
-
-
+/* CSS COMPONENTS*/
+/* GRID COMPONENTS*/
 .container {
+    display: grid;
+    grid-template-columns: 1fr  4fr 1fr;
+    grid-template-rows: 60px 350px repeat(4,fr);
+    grid-gap: 15px;
+}
+
+.item-a {
+    grid-column: 1/5;
+    grid-row: 1/1;
+    background-color: crimson;
+}
+
+.item-b {
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+
+.item-c {
+    grid-column: 1/2;
+    grid-row: 3/7;
+}
+
+.item-d {
+    grid-column: 2/2;
+    grid-row: 2/4;
+}
+
+.item-k {
+    grid-column: 5/6;
+    grid-row: 2/auto;
+    background-color: crimson;
+}
+
+/* FLEXBOX COMPONENTS*/
+
+
+/* .container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -85,9 +59,9 @@ li {
     background-color: rgba(240, 240, 240, 1);
     border-radius: 5px;
     box-shadow: 1px 2px 4px 2px rgba(200, 200, 200, 1);
-}
+} */
 
-.card {
+/* .card {
     width: 200px;
     height: 300px;
     margin: 20px;
@@ -140,7 +114,7 @@ li {
     color: white;
 }
 
-.parent{
+/* .parent{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -149,4 +123,123 @@ li {
 
 .child {
 
+} */
+ */
+
+
+/**/
+body {
+    font-family: 'STIX Two Text', serif;
+    margin: 10px;
+}
+
+header {
+
+}
+
+nav {
+
+}
+
+main {
+
+}
+
+section {
+
+}
+
+/* article {
+    height: auto;
+    width: 600px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px rgba(200, 200, 200, 1);
+} */
+
+aside {
+
+}
+
+footer {
+
+}
+
+
+
+h1 {
+    font-size:xx-large;
+    color: crimson;
+}
+
+h2 {
+    font-size:x-large;
+    color: crimson;
+}
+
+h3 {
+    font-size:large;
+    color: crimson;
+}
+
+h4 {
+    font-size:medium;
+    color: crimson;
+}
+
+h5 {
+margin: 4px;
+}
+
+h6 {
+    color: crimson;
+    margin:3px;
+
+}
+
+p {
+
+}
+
+span {
+    font-size:smaller;
+    font-weight: bold;
+    color: white;
+    background-color: crimson;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    font-size: 18px;
+}
+
+i:hover {
+    color: rgb(153, 5, 35);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+/* Progress Bar*/
+.progressbar {
+    background-color: black;
+    border-radius: 13px;
+    padding: 3px;
+}
+
+.progressbar>div {
+    background-color: crimson;
+    width: 50%;
+    height: 5px;
+    border-radius: 10px;
 }
