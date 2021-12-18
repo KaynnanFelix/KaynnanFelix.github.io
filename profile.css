@@ -1,0 +1,27 @@
+
+
+/* || PROFILE CARD */
+.profile-card {
+    width: 230px;
+    height: auto;
+    margin: 20px;
+    
+    border: 1px solid black;
+    
+    
+    
+    text-align: center;
+}
+/* || PROFILE IMAGE */
+.profile-image {
+    margin-top: 25px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;;
+    border: 1px solid rgba(220, 20, 60, 1);
+    box-shadow: 1px 2px 4px 2px rgba(220, 20, 60, 0.3);
+}
+/* || SOCIAL */
+
+
+/* || PROFILE BUTTON CURRICULUM VITAE */
