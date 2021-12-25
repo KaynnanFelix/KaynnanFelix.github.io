@@ -14,3 +14,20 @@
     margin: -15px 0px 10px -15px;
     border-bottom: 1px solid rgba(119, 119, 119, 0.2);
 }
+
+.card-name {
+    color: rgba(220,20,60,1);
+    margin-top: 0px;
+    font-size: 26px;
+}
+
+.card-function {
+    color:rgba(119, 119, 119, 0.8);
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.card-social {
+    margin-top: 35px;
+
+}
