@@ -1,0 +1,114 @@
+/*
+
+p {}
+p, li {}
+#special {}
+.special {}
+li.special {}
+h1 + p {}
+li em {}
+a:link {}
+a:visited {}
+a: hover {}
+
+*/
+
+@import "aside.css";
+@import "grid.css";
+@import "profile.css";
+@import "card.css";
+
+/* || GENERAL STYLES */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4 {
+
+}
+
+ul { 
+  margin: 0;
+  padding: 0;
+}
+
+ol {}
+
+li {
+    display: inline
+}
+
+a {
+    text-decoration: none;
+    color: rgba(220, 20, 60, 1);
+    font-size: 16px;
+}
+
+a:link, a:visited {
+    color: rgba(220, 20, 60, 1);
+}
+
+a:hover {
+    color: rgba(120, 20, 60, 1);
+}
+
+/* || Header and Navigation */
+
+header {
+    text-align: center;
+    width: calc(100% - 20px);
+    height: 150px;
+    padding: 10px;
+    margin: 0px;
+    color: rgba(220, 20, 60, 1);
+    font-size: 23px;
+}
+
+nav {
+
+}
+
+/* || Main */
+
+main {
+    width: calc(100% - 20px);
+    height: auto;
+    padding: 10px;
+    margin: 0px;
+    background-color: silver;
+}
+
+/* || Aside */
+
+aside {
+    width: auto;
+    height: 900px;
+    padding: 10px;
+    margin: 0px;
+    background-color: silver;
+}
+
+/* || Section and Article */
+
+section {
+
+}
+
+article {
+
+}
+
+/* || Footer */
+
+footer {
+    text-align: center;
+    width: auto;
+    height: 150px;
+    line-height: 150px;
+}
+
+/* || UTILITIES */
+/* || SITEWIDE */
+/* || STORE PAGES*/
